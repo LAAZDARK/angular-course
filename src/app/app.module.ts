@@ -2,10 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ContadorComponent } from './counter/contador.component';
+import { HeroeComponent } from './heroes/heroe/heroe.component';
+import { ListComponent } from './heroes/list/list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContadorComponent,
+    HeroeComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule
